@@ -1,0 +1,75 @@
+.sidebar{
+    display: flex;
+    flex: 0.25;
+    flex-direction: column;
+}
+.sidebar .slidebar_profile{
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    
+}
+.sidebar .slidebar_profile img{
+    width: 100%;
+    height: 50px;
+    margin-bottom: -30px;
+}
+.sidebar .MuiAvatar-circular {
+    margin: 0 auto;
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+    
+}
+.profile_detail{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.profile_detail h4{
+    margin-bottom: 0px;
+    
+}
+.profile_detail p{
+margin: 5px 10px;
+font-size: 13px;
+color: #333;
+}
+
+.profile_stat{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 0px 10px;
+    font-size: 14px;
+    align-items: center;
+}
+
+.sidebar_2{
+    margin: 10px 0px;
+    border-radius: 10px;
+    position: sticky;
+    padding: 10px;
+    top: 60px;
+    background-color: #fff;
+}
+.sidebar_2 p{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 0px 0px 10px 0px;
+
+}
+.hash span{
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 5px;
+    color: #333;
+}
+.header-right .MuiSvgIcon-root{
+    height: 1.5em;
+    width: 2em;
+}

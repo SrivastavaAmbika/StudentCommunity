@@ -1,0 +1,48 @@
+.posts{
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.postheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.postheaderleft{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.profiledetail h3{
+    margin: 0px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.profiledetail p{
+    margin: 0px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.postbody{
+font-size: 18px;
+padding: 20px 0px;
+}
+.postfooter{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.footeroption{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.footeroption svg{
+    margin-right: 10px;
+}
